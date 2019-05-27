@@ -8,9 +8,8 @@ import com.atguigu.gmall.service.UserService;
 
 public class OrderServiceImpl implements OrderService {
 
-    
     UserService userService;
-    
+
     public void initOrder(String userId) {
         // 1、查询用户的收货地址
         List<UserAddress> userAddressList = userService.getUserAddressList(userId);

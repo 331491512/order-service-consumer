@@ -12,5 +12,21 @@
 			<artifactId>gmall-interface</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
+		<!-- 引入dubbo -->
+		<!-- https://mvnrepository.com/artifact/com.alibaba/dubbo -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>dubbo</artifactId>
+			<version>2.6.2</version>
+		</dependency>
+
+		<!-- 注冊中心使用的是zookeeper，引入操作zookeeper的客戶端 -->
+		<!-- https://mvnrepository.com/artifact/org.apache.curator/curator-framework -->
+		<dependency>
+			<groupId>org.apache.curator</groupId>
+			<artifactId>curator-framework</artifactId>
+			<version>4.0.1</version>
+		</dependency>
 	</dependencies>
 </project>
